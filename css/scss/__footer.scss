@@ -1,0 +1,74 @@
+.footer {
+    background-color: $primary_color;
+    padding-top: 38px;
+    padding-bottom: 38px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left {
+        flex: 0 0 55%;
+
+        & .text {
+            color: #FFF;
+            font-family: "Montserrat", sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+    &__right {
+        padding-left: 75px;
+        flex: 0 0 40%;
+        display: flex;
+        justify-content: space-between;
+        
+        & .developer {
+            align-self: center;
+        }
+    }
+
+
+}
+
+.social {
+    &__list {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 0;
+        display: inline-flex;
+
+        &.vertical {
+            flex-direction: column;
+            justify-content: space-between;
+
+        }
+
+        &-item {
+            // margin-right: 10px;
+            // &:last-child {
+            //     margin-right: 0;
+            // }
+            max-width: 40px;
+            // flex: 0 0 40px;
+        }
+
+        &-link {
+
+            transition: all .3s linear;
+            padding: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+
+}
