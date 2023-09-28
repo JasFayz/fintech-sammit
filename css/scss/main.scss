@@ -1,6 +1,9 @@
 $primary_color: #00539F;
 $secondary_color: #ABABAB;
 
+.wrapper {
+    overflow: hidden;
+}
 
 @import './_header';
 @import './_banner';
