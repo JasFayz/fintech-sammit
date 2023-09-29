@@ -190,19 +190,23 @@
 
 				</div>
 				<div class="splide__arrows">
-					<button class="splide__arrow splide__arrow--prev">
-						<svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M9 1L1 9L9 17" stroke="#00539F" stroke-width="2" stroke-linecap="round"
-								stroke-linejoin="round" />
-						</svg>
-					</button>
-					<button class="splide__arrow splide__arrow--next">
-						<svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M1 17L9 9L1 0.999999" stroke="#00539F" stroke-width="2" stroke-linecap="round"
-								stroke-linejoin="round" />
-						</svg>
+					<div class="container-small position-relative">
+						<button class="splide__arrow splide__arrow--prev">
+							<svg width="10" height="18" viewBox="0 0 10 18" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path d="M9 1L1 9L9 17" stroke="#00539F" stroke-width="2" stroke-linecap="round"
+									stroke-linejoin="round" />
+							</svg>
+						</button>
+						<button class="splide__arrow splide__arrow--next">
+							<svg width="10" height="18" viewBox="0 0 10 18" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path d="M1 17L9 9L1 0.999999" stroke="#00539F" stroke-width="2" stroke-linecap="round"
+									stroke-linejoin="round" />
+							</svg>
 
-					</button>
+						</button>
+					</div>
 				</div>
 			</div>
 
@@ -382,13 +386,9 @@
 				gap: '50px',
 				perPage: 1,
 				pagination: false,
-				autoScroll: {
-					speed: .5,
-					pauseOnFocus: false,
-					pauseOnHover: false,
-				},
+
 			});
-			splide.mount(window.splide.Extensions);
+			splide.mount();
 
 			var splide2 = new Splide('#news_slider', {
 				type: 'loop',
