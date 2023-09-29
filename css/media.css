@@ -104,6 +104,9 @@
   .card__content img {
     width: 100%;
   }
+  .card__content {
+    padding: 20px;
+  }
 }
 /* xs <= Small (sm) */
 @media (max-width: 576px) {
