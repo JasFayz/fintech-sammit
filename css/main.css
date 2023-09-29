@@ -367,6 +367,10 @@
   height: 156px;
   overflow: hidden;
 }
+.card__content.page .desc {
+  height: auto;
+  overflow: initial;
+}
 .card__footer {
   display: flex;
   justify-content: space-between;
@@ -605,11 +609,13 @@
   z-index: 1;
 }
 .gallery__list-item {
-  height: 100%;
+  height: 125px;
   display: block;
 }
 .gallery__list-item img {
   height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .footer {

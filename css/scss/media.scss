@@ -56,6 +56,13 @@
     .footer__right {
         padding-left: 0;
     }
+    .main__slider .splide__arrow--prev {
+        left: 0;
+    }
+
+    .main__slider .splide__arrow--next {
+        right: 0;
+    }
 }
 
 
@@ -147,13 +154,7 @@
     .card__content {
         padding: 20px;
     }
-    .main__slider .splide__arrow--prev {
-        left: 0;
-    }
-
-    .main__slider .splide__arrow--next {
-        right: 0;
-    }
+  
 }
 
 

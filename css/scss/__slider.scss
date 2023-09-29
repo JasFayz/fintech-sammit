@@ -84,12 +84,15 @@
 
     &__content {
         padding: 32px 53px 29px 52px;
+
         &a.title {
             text-decoration: none;
+
             &:hover {
                 text-decoration: underline;
             }
         }
+
         & .title {
             color: $primary_color;
             font-family: "Montserrat", sans-serif;
@@ -99,8 +102,8 @@
             line-height: normal;
             margin-bottom: 24px;
             display: block;
-          
-          
+
+
         }
 
         & .desc {
@@ -113,6 +116,15 @@
             margin-bottom: 24px;
             height: 156px;
             overflow: hidden;
+        }
+
+        &.page {
+
+           & .desc {
+            height: auto;
+            overflow: initial;
+           }
+
         }
     }
 
@@ -243,6 +255,7 @@
         margin-top: 21px;
         text-decoration: none;
         transition: all 0.3s linear;
+
         &:hover {
             background-color: lighten($color: $primary_color, $amount: 10);
         }
@@ -250,6 +263,7 @@
 
     &__container {
         position: relative;
+
         &::before {
             content: '';
             display: block;
