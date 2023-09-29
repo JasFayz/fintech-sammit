@@ -233,4 +233,36 @@
         margin-top: 21px;
         text-decoration: none;
     }
+
+    &__container {
+        position: relative;
+        &::before {
+            content: '';
+            display: block;
+            width: 285px;
+            height: 284px;
+            position: absolute;
+            top: 20%;
+            left: 100%;
+            background-image: url('../images/element-g.svg');
+            background-repeat: no-repeat;
+            background-size: 314px 284px;
+            z-index: -1;
+        }
+
+        &::after {
+            content: '';
+            display: block;
+            width: 285px;
+            height: 284px;
+            position: absolute;
+            bottom: 20%;
+            right: 100%;
+            background-image: url('../images/element-g.svg');
+            background-repeat: no-repeat;
+            background-size: 314px 284px;
+            z-index: -1;
+
+        }
+    }
 }

@@ -1,4 +1,25 @@
 .banner {
+    &.page {
+        background-color: rgba($color: $primary_color, $alpha: .46);
+        & .banner__container {
+            background: none;
+            padding: 0;
+            &::before{
+                content: none;
+            }
+            &::after {
+                top: 0;
+                left: -142px;
+            }
+        }
+
+        & .banner__inner {
+            width: 100%;
+            max-width: 100%;
+            background: none;
+          
+        }
+    }
 
     &__container {
         padding-top: 113px;
@@ -104,8 +125,8 @@
 
         & .logo {
             padding: 0 29px 0 36px;
-            width: 180px;
-
+            width: 200px;
+            text-align: center;
         }
 
         & .title {
@@ -154,6 +175,7 @@
         transition: all .3s linear;
         display: block;
         position: relative;
+
         &::before {
             content: '';
             display: block;
@@ -168,6 +190,7 @@
             transform: translateX(-50%);
             transition: all 0.3s linear;
         }
+
         &:hover::before {
             // border-bottom: 1px solid white;
             visibility: visible;
