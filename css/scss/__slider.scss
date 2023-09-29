@@ -84,7 +84,12 @@
 
     &__content {
         padding: 32px 53px 29px 52px;
-        
+        &a.title {
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
         & .title {
             color: $primary_color;
             font-family: "Montserrat", sans-serif;
@@ -93,6 +98,9 @@
             font-weight: 700;
             line-height: normal;
             margin-bottom: 24px;
+            display: block;
+          
+          
         }
 
         & .desc {
@@ -103,6 +111,8 @@
             font-weight: 400;
             line-height: normal;
             margin-bottom: 24px;
+            height: 156px;
+            overflow: hidden;
         }
     }
 
