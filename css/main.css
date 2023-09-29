@@ -339,11 +339,12 @@
 }
 .card__content {
   padding: 32px 53px 29px 52px;
+  flex: 1;
 }
-.card__contenta.title {
+.card__content a.title {
   text-decoration: none;
 }
-.card__contenta.title:hover {
+.card__content a.title:hover {
   text-decoration: underline;
 }
 .card__content .title {
