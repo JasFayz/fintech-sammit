@@ -553,11 +553,7 @@
   z-index: 1;
   transform: translateY(50%);
 }
-.gallery__item:first-child {
-  grid-column: 1/span 1;
-  grid-row: 1/span 1;
-  display: flex;
-  align-items: center;
+.gallery a.gallery__item {
   color: #00539F;
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
@@ -566,8 +562,14 @@
   line-height: normal;
   text-decoration: none;
 }
-.gallery__item:first-child:hover {
+.gallery a.gallery__item:hover {
   text-decoration: underline;
+}
+.gallery__item:first-child {
+  grid-column: 1/span 1;
+  grid-row: 1/span 1;
+  display: flex;
+  align-items: center;
 }
 .gallery__item:nth-child(2) {
   grid-column: 2/span 1;
