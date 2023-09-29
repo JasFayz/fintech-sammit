@@ -101,6 +101,9 @@
     padding-left: 40px;
     padding-right: 40px;
   }
+  .card__content img {
+    width: 100%;
+  }
 }
 /* xs <= Small (sm) */
 @media (max-width: 576px) {
