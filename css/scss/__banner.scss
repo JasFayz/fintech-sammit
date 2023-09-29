@@ -130,6 +130,9 @@
 
     &__lang {
         position: relative;
+        flex: 1;
+        justify-content: flex-end;
+        margin-right: 10px;
     }
 }
 
