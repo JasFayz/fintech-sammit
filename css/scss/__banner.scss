@@ -5,7 +5,7 @@
         // padding-left: 116px;
         // padding-right: 128px;
         padding-bottom: 215px;
-        background-image: url('/images/banner-bg.png');
+        background-image: url('../images/banner-bg.png');
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
@@ -29,12 +29,12 @@
             left: 0;
             width: 284px;
             height: 284px;
-            background-image: url('/images/element.svg');
+            background-image: url('../images/element.svg');
             background-repeat: no-repeat;
             background-size: cover;
             transform: translateX(-50%);
             z-index: -1;
-            
+
         }
     }
 

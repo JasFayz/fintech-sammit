@@ -82,7 +82,7 @@
 .banner__container {
   padding-top: 113px;
   padding-bottom: 215px;
-  background-image: url("/images/banner-bg.png");
+  background-image: url("../images/banner-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -105,7 +105,7 @@
   left: 0;
   width: 284px;
   height: 284px;
-  background-image: url("/images/element.svg");
+  background-image: url("../images/element.svg");
   background-repeat: no-repeat;
   background-size: cover;
   transform: translateX(-50%);
@@ -315,7 +315,7 @@
   position: absolute;
   top: -40%;
   left: 100%;
-  background-image: url("/images/element-g.svg");
+  background-image: url("../images/element-g.svg");
   background-repeat: no-repeat;
   background-size: 314px 284px;
   z-index: -1;
@@ -328,7 +328,7 @@
   position: absolute;
   top: 20%;
   right: 100%;
-  background-image: url("/images/element-g.svg");
+  background-image: url("../images/element-g.svg");
   background-repeat: no-repeat;
   background-size: 314px 284px;
   z-index: -1;
@@ -406,7 +406,7 @@
   position: absolute;
   top: -35%;
   left: 100%;
-  background-image: url("/images/element.svg");
+  background-image: url("../images/element.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
